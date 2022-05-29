@@ -89,14 +89,16 @@ def pygame_init():
 #====================================================================================================#
 #                                         Funcion MapInit                                            #
 #                       Crea y retorna una surface donde se imprimira el mapa                        #
+#         Entradas: (AnchoX,AnchoY en Pixeles)   Salidas: Surface de las medidas indicadas           #   
 #====================================================================================================#
 
 def MapInit(AnchoX,AnchoY):
     return pygame.Surface((AnchoX,AnchoY))
 
 #====================================================================================================#
-#                                 Funcion Background y manual                                        #
+#                                  Funcion Background y manual                                       #
 #                   Imprime el fondo del juego sobre la surface creada anteriormente                 #
+#                    Salidas: Muestra una imagenindicada sprt[x] por pantalla                        #
 #====================================================================================================#
 
 def Background():
@@ -104,7 +106,6 @@ def Background():
 
 def Manual():
     return Screen.blit(sprt[11],(200,180))
-
 
 #====================================================================================================#
 #                                         While principal                                            #
