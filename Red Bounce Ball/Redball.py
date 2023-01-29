@@ -30,7 +30,7 @@ def vidasblit(self,Screen,sprt):
 
 class Redball():
     def __init__(self, x, y): #............................ Se inicializan los parametros de la pelota.
-        img = pygame.image.load("./sprt/S07.png") #........ Carga de imagen asignada a la pelota.
+        img = pygame.image.load("../sprt/S07.png") #........ Carga de imagen asignada a la pelota.
         self.rescale = pygame.transform.scale(img, (20, 20)) #... Rescala la imagen cargada.
         self.rect = self.rescale.get_rect() #.............. Se obtiene el "rect" de la img reescalada
         self.ancho = self.rescale.get_width() #............ Se obtiene el ANCHO del "rect".
