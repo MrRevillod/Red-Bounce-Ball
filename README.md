@@ -1,7 +1,5 @@
 # Proyecto Programación I
 
-### Código
-
 ![Preview_0](https://raw.githubusercontent.com/MrRevillod/Red-Bounce-Ball/master/Documentos/Preview_0.png)
 
 ### In game screenshots
