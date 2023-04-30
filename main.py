@@ -55,29 +55,29 @@ def Load_Image(sFile,transp = False):
 
 def arraySprt():
     aSprt = []
-    aSprt.append(Load_Image('../sprt/S01.png',False )) # Background               [0]
-    aSprt.append(Load_Image('../sprt/S02.png',False )) # Red tile                 [1]
-    aSprt.append(Load_Image('../sprt/S12.png',False )) # InitFlag                 [2]
-    aSprt.append(Load_Image('../sprt/S06.png',False )) # Obstaculo                [3]
-    aSprt.append(Load_Image('../sprt/enemie.png',True )) # enemie                 [4]
-    aSprt.append(Load_Image('../sprt/coup.png',False )) # Coup                    [5]
-    aSprt.append(Load_Image('../sprt/S07.png',True ))  # Red Ball                 [6]
-    aSprt.append(Load_Image('../sprt/nextlevel.png',False )) # next level         [7]
-    aSprt.append(Load_Image('../sprt/gobutton.png',False )) # GO Button           [8]
-    aSprt.append(Load_Image('../sprt/S11.png',True)) # green flag                 [9]
-    aSprt.append(Load_Image('../sprt/winner.png',False )) # winner                [10]
-    aSprt.append(Load_Image('../sprt/Inicio.png',False ))# Inicio                 [11]
-    aSprt.append(Load_Image('../sprt/Opciones.png',False ))# MenuManual           [12]
-    aSprt.append(Load_Image('../sprt/start.png',False ))# start button            [13]
-    aSprt.append(Load_Image('../sprt/Manual.png',False ))# Manual button          [14]
-    aSprt.append(Load_Image('../sprt/Menuball.png',True ))# Ball Inicio           [15]
-    aSprt.append(Load_Image('../sprt/fullv.png',False ))# Vidas = 3               [16]
-    aSprt.append(Load_Image('../sprt/midv.png',False ))#  Vidas = 2               [17]
-    aSprt.append(Load_Image('../sprt/minv.png',False ))#  Vidas = 1               [18]
-    aSprt.append(Load_Image('../sprt/over.png',False ))#  gameover                [19]
-    aSprt.append(Load_Image('../sprt/restartbutton.png',True ))#  restart button  [20]
-    aSprt.append(Load_Image('../sprt/seeu.png',False ))#  seeu                    [21]
-    aSprt.append(Load_Image('../sprt/exitbutton.png',False ))#  exit button       [22]
+    aSprt.append(Load_Image('./sprt/S01.png',False )) # Background               [0]
+    aSprt.append(Load_Image('./sprt/S02.png',False )) # Red tile                 [1]
+    aSprt.append(Load_Image('./sprt/S12.png',False )) # InitFlag                 [2]
+    aSprt.append(Load_Image('./sprt/S06.png',False )) # Obstaculo                [3]
+    aSprt.append(Load_Image('./sprt/enemie.png',True )) # enemie                 [4]
+    aSprt.append(Load_Image('./sprt/coup.png',False )) # Coup                    [5]
+    aSprt.append(Load_Image('./sprt/S07.png',True ))  # Red Ball                 [6]
+    aSprt.append(Load_Image('./sprt/nextlevel.png',False )) # next level         [7]
+    aSprt.append(Load_Image('./sprt/gobutton.png',False )) # GO Button           [8]
+    aSprt.append(Load_Image('./sprt/S11.png',True)) # green flag                 [9]
+    aSprt.append(Load_Image('./sprt/winner.png',False )) # winner                [10]
+    aSprt.append(Load_Image('./sprt/Inicio.png',False ))# Inicio                 [11]
+    aSprt.append(Load_Image('./sprt/Opciones.png',False ))# MenuManual           [12]
+    aSprt.append(Load_Image('./sprt/start.png',False ))# start button            [13]
+    aSprt.append(Load_Image('./sprt/Manual.png',False ))# Manual button          [14]
+    aSprt.append(Load_Image('./sprt/Menuball.png',True ))# Ball Inicio           [15]
+    aSprt.append(Load_Image('./sprt/fullv.png',False ))# Vidas = 3               [16]
+    aSprt.append(Load_Image('./sprt/midv.png',False ))#  Vidas = 2               [17]
+    aSprt.append(Load_Image('./sprt/minv.png',False ))#  Vidas = 1               [18]
+    aSprt.append(Load_Image('./sprt/over.png',False ))#  gameover                [19]
+    aSprt.append(Load_Image('./sprt/restartbutton.png',True ))#  restart button  [20]
+    aSprt.append(Load_Image('./sprt/seeu.png',False ))#  seeu                    [21]
+    aSprt.append(Load_Image('./sprt/exitbutton.png',False ))#  exit button       [22]
     return aSprt
     
 #====================================================================================================#
@@ -88,7 +88,7 @@ def arraySprt():
 def pygame_init():
     pygame.init()
     pygame.mixer.init()
-    pygame.display.set_caption('Red Bounce Ball - Luciano Revillod Jerez')
+    pygame.display.set_caption('Red Bounce Ball - MrRevillod')
     pygame.mouse.set_visible(False)
     return pygame.display.set_mode(res)
 
